@@ -87,7 +87,7 @@ I'm always open to collaborating on interesting projects, discussing design idea
 
 ---
 
-## 📝 Latest Blog Posts
+##  Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
 - Coming soon! I'll be sharing my learning journey and insights about front-end development and UI/UX design.
