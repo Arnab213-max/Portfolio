@@ -48,17 +48,6 @@ I'm **Arnab Maharjan**, a passionate **BCA (Bachelor of Computer Applications)**
 
 ---
 
-##  GitHub Statistics
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=arnabmaharjan&show_icons=true&theme=radical&hide_border=true" alt="GitHub Stats" />
-  <br/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=arnabmaharjan&theme=radical&hide_border=true" alt="GitHub Streak" />
-  <br/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=arnabmaharjan&layout=compact&theme=radical&hide_border=true" alt="Top Languages" />
-</div>
-
----
 
 ##  Achievements & Certifications
 
