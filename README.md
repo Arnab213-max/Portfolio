@@ -5,7 +5,7 @@
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-brightgreen)](https://github.com/arnabmaharjan)
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=500&center=true&vCenter=true&width=600&lines=BCA+Student+%7C+Front-End+Developer;UI%2FUX+Designer+%7C+Creative+Thinker;Building+Beautiful+Digital+Experiences" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=500&center=true&vCenter=true&width=600&lines=BCA+Student+%7C+Front-End+Developer;UI%2FUX+Designer+%7C+Creative+Thinker;Building+Beautiful+UI/UX+Experiences" alt="Typing SVG" />
 </div>
 
 ---
