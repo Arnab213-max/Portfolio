@@ -12,7 +12,7 @@
 
 ##  About Me
 
-I'm **Arnab Maharjan**, a passionate **BCA (Bachelor of Computer Applications)** undergraduate student at **DAV College, Lalitpur, Nepal** with a strong focus on **Front-End Development** and **UI/UX Design**. I believe in creating digital experiences that are not only functional but also visually appealing and user-centric.
+I'm **Arnab Maharjan**, a passionate **BCA (Bachelor of Computer Applications)** undergraduate student at **DAV College, Lalitpur, Nepal** with a strong focus on **Front-End Development** and **UI/UX Design**. I believe in creating Great UI/UX  experiences that are not only functional but also visually appealing and user-centric.
 
 ###  What I Do
 -  **UI/UX Design** - Crafting intuitive and engaging user interfaces
