@@ -68,7 +68,6 @@
       background: radial-gradient(circle, rgba(6, 182, 212, 0.9) 0%, rgba(168, 85, 247, 0.6) 80%, transparent 100%);
       filter: blur(3px);
     }
-/*  ensures that cursor glow doesnt fake click orblock the authorities  */
     .cursor-glow, .cursor-dot {
       will-change: transform;
     }
@@ -412,8 +411,6 @@
       70% { box-shadow: 0 0 0 12px rgba(168, 85, 247, 0.2); }
       100% { box-shadow: 0 0 0 0 rgba(6, 182, 212, 0); }
     }
-
-    /* ========= SECTION COMMON ========= */
     .section-title {
       font-size: 2.25rem;
       font-weight: 700;
@@ -903,8 +900,6 @@
   </style>
 </head>
 <body>
-
-  <!-- Custom Cursor Glow Elements -->
   <div class="cursor-glow"></div>
   <div class="cursor-dot"></div>
 
@@ -1122,7 +1117,6 @@
   </footer>
 
   <script>
-    // Cursor Glow Effect
     const cursorGlow = document.querySelector('.cursor-glow');
     const cursorDot = document.querySelector('.cursor-dot');
     
@@ -1139,7 +1133,6 @@
         cursorDot.style.transform = `translate(${dotX}px, ${dotY}px)`;
       });
       
-      // Smooth follow for glow with slight delay
       function animateGlow() {
         glowX += (mouseX - glowX) * 0.15;
         glowY += (mouseY - glowY) * 0.15;
@@ -1148,7 +1141,6 @@
       }
       animateGlow();
       
-      // Interactive elements hover effect - enlarge glow
       const interactiveElements = document.querySelectorAll('a, button, .nav-link, .hire-me-btn, .btn-primary, .btn-outline, .project-card, .neon-tag, .contact-link, .live-link, .github-link, .stat-card');
       
       interactiveElements.forEach(el => {
@@ -1166,7 +1158,6 @@
         });
       });
       
-      // Hide cursor when leaving window
       document.addEventListener('mouseleave', () => {
         cursorGlow.style.opacity = '0';
         cursorDot.style.opacity = '0';
@@ -1177,7 +1168,6 @@
       });
     }
 
-    // Typed.js initialization
     const typed = new Typed('#typed-roles', {
       strings: ['UI/UX Enthusiast', 'Frontend Developer', 'Pursuing BCA at DAV College', 'YouTuber', 'Design Thinker'],
       typeSpeed: 60,
@@ -1186,7 +1176,6 @@
       backDelay: 1500,
     });
 
-    // Theme Toggle
     const themeToggle = document.getElementById('themeToggle');
     const themeToggleMobile = document.getElementById('themeToggleMobile');
     const toggleBall = document.getElementById('toggleBall');
@@ -1214,7 +1203,6 @@
     if (themeToggle) themeToggle.addEventListener('click', () => setTheme(body.classList.contains('light')));
     if (themeToggleMobile) themeToggleMobile.addEventListener('click', () => setTheme(body.classList.contains('light')));
 
-    // Mobile Menu
     const menuBtn = document.getElementById('menuBtn');
     const mobileMenu = document.getElementById('mobileMenu');
     if (menuBtn) {
@@ -1223,8 +1211,6 @@
     document.querySelectorAll('.mobile-nav-link').forEach(link => {
       link.addEventListener('click', () => mobileMenu.classList.add('hidden'));
     });
-
-    // Smooth Scroll
     document.querySelectorAll('.nav-link, .mobile-nav-link, #viewProjectsBtn').forEach(anchor => {
       anchor.addEventListener('click', function (e) {
         const targetId = this.getAttribute('href');
@@ -1238,7 +1224,6 @@
       });
     });
 
-    // Project Links
     document.querySelectorAll('.live-link, .github-link').forEach(link => {
       link.addEventListener('click', (e) => {
         e.preventDefault();
@@ -1246,7 +1231,6 @@
       });
     });
 
-    // Download CV
     const downloadBtn = document.getElementById('downloadCVBtn');
     if (downloadBtn) {
       downloadBtn.addEventListener('click', () => {
@@ -1291,7 +1275,6 @@ startxref
       });
     }
 
-    // Contact Form
     const contactForm = document.getElementById('contactForm');
     const formFeedback = document.getElementById('formFeedback');
     if (contactForm) {
